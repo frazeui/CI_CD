@@ -28,4 +28,7 @@ jobs:
 
       - name: Run tests
         run: python -m pytest
+      
+      - name: Run ruff linter
+        run: ruff check .
 
