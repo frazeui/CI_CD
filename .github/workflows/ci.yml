@@ -35,3 +35,5 @@ jobs:
       - name: Run mypy type checker
         run: mypy .
 
+      - name: Build Docker image
+        run: docker build -t ci-cd-learning . 
