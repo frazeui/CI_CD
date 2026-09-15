@@ -51,4 +51,3 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/frazeui/ci-cd-learning:latest
-        run: docker build -t ci-cd-learning . 
