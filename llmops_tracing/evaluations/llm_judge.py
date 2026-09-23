@@ -108,8 +108,7 @@ MAX_DEGRADATION=0.05
 
 
 baseline_score=experiment_a['average_score']
-# new_score=experiment_b['average_score']
-new_score=9.4
+new_score=experiment_b['average_score']
 
 
 if baseline_score<1: raise ValueError("Baseline must be greater than 0.")
