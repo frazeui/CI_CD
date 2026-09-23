@@ -127,9 +127,9 @@ print(f'Maximum allowed: {MAX_DEGRADATION*100:.2f}%')
 
 
 if degradation>MAX_DEGRADATION:
-    print(f'❌ Regression Detected')
+    print('❌ Regression Detected')
     raise SystemExit(1)
-print(f"✅ Regression Check Passed.")
+print("✅ Regression Check Passed.")
 
 
 # if new_score<MIN_SCORE:
