@@ -15,7 +15,6 @@ TEST_CASES = [
             "decision": "APPROVE",
         },
     },
-
     {
         "id": "TX002",
         "description": "Customer makes an AED 6000 transaction in the UAE.",
@@ -30,7 +29,6 @@ TEST_CASES = [
             "decision": "BLOCK",
         },
     },
-
     {
         "id": "TX003",
         "description": "Customer makes an AED 2000 transaction from a different country.",
@@ -45,7 +43,6 @@ TEST_CASES = [
             "decision": "BLOCK",
         },
     },
-
     {
         "id": "TX004",
         "description": "Customer performs many transactions within one hour.",
@@ -62,8 +59,8 @@ TEST_CASES = [
     },
 ]
 
-llm_judge_dataset=[
-      {
+llm_judge_dataset = [
+    {
         "id": "Q1",
         "question": "What is the capital of France?",
         "reference": "Paris",
