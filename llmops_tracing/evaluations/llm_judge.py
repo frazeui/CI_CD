@@ -3,11 +3,11 @@ from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 import json
 from langchain_core.prompts import ChatPromptTemplate
-
+import os
 
 load_dotenv()
 
-
+api_key=os.getenv('GROQ_API_KEY')
 
 
 chat=ChatGroq(model="openai/gpt-oss-120b",temperature=0,max_tokens=300)
