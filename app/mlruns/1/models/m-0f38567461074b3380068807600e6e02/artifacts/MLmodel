@@ -1,0 +1,24 @@
+artifact_path: file:D:/Python/Python_Pandas/Pandas/Scikit_Learn/Deep Learning/CI_CD/app/mlruns/1/models/m-0f38567461074b3380068807600e6e02/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-0f38567461074b3380068807600e6e02
+model_size_bytes: 4896040
+model_uuid: m-0f38567461074b3380068807600e6e02
+prompts: null
+run_id: 168a0595fd3b4f628902216262ad61d4
+utc_time_created: '2026-09-18 07:48:23.479382'
