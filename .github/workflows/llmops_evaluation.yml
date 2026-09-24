@@ -30,9 +30,11 @@ jobs:
       - name: Run Ruff
         run: |
           ruff check .
-          ruff format --check .
+          ruff format --check.
 
       - name: Run Pytest
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           pytest
 
